@@ -1,0 +1,57 @@
+{
+  "build.gradle": {
+    "mtime": 1784669142.0632577,
+    "ast_hash": "6d4aaa3eac11ea922f6e56293415d0e9",
+    "semantic_hash": "6d4aaa3eac11ea922f6e56293415d0e9"
+  },
+  "gradlew": {
+    "mtime": 1784660075.4064434,
+    "ast_hash": "794669d78aef1dd5c7d889ef618b311a",
+    "semantic_hash": "794669d78aef1dd5c7d889ef618b311a"
+  },
+  "settings.gradle": {
+    "mtime": 1784660075.4422393,
+    "ast_hash": "58a5df05c6546d7d2671a516793e02e7",
+    "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
+  },
+  "src/main/java/com/skd/betterconnections/BetterConnections.java": {
+    "mtime": 1784660949.8877015,
+    "ast_hash": "203c32207bbc7d0a4b63c869e27032c8",
+    "semantic_hash": "203c32207bbc7d0a4b63c869e27032c8"
+  },
+  "src/main/java/com/skd/betterconnections/BetterConnectionsClient.java": {
+    "mtime": 1784660950.585818,
+    "ast_hash": "3eb2d4e4519d1bdedb9505415f3088e7",
+    "semantic_hash": "3eb2d4e4519d1bdedb9505415f3088e7"
+  },
+  "src/main/java/com/skd/betterconnections/Config.java": {
+    "mtime": 1784660950.9802825,
+    "ast_hash": "30957ecc6d8b87ee5d8c85fffb4e5507",
+    "semantic_hash": "30957ecc6d8b87ee5d8c85fffb4e5507"
+  },
+  "src/main/java/com/skd/betterconnections/mixin/FenceBlockMixin.java": {
+    "mtime": 1784660934.6616714,
+    "ast_hash": "4c414ee12803d0cd275cc8f3f188dd84",
+    "semantic_hash": "4c414ee12803d0cd275cc8f3f188dd84"
+  },
+  "src/main/java/com/skd/betterconnections/mixin/PaneBlockMixin.java": {
+    "mtime": 1784660936.0754871,
+    "ast_hash": "a95c48a3f0d33c19f71b3cf00f3b12dc",
+    "semantic_hash": "a95c48a3f0d33c19f71b3cf00f3b12dc"
+  },
+  "src/main/java/com/skd/betterconnections/mixin/WallBlockMixin.java": {
+    "mtime": 1784660937.4950602,
+    "ast_hash": "89ef088433c466d83dfa135be1064dbb",
+    "semantic_hash": "89ef088433c466d83dfa135be1064dbb"
+  },
+  "src/main/resources/assets/better_connections/lang/en_us.json": {
+    "mtime": 1784660951.340001,
+    "ast_hash": "5b76b0eef9af8a2300673e0553f609f9",
+    "semantic_hash": "5b76b0eef9af8a2300673e0553f609f9"
+  },
+  "src/main/resources/better_connections.mixins.json": {
+    "mtime": 1784660942.724083,
+    "ast_hash": "293fd414694587add95e97b943857ed3",
+    "semantic_hash": "293fd414694587add95e97b943857ed3"
+  }
+}
