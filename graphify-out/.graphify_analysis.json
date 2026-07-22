@@ -103,11 +103,8 @@
     }
   ],
   "surprises": [],
-  "questions": [
-    {
-      "type": "isolated_nodes",
-      "question": "What connects `Config` to the rest of the system?",
-      "why": "1 weakly-connected nodes found - possible documentation gaps or missing edges."
-    }
-  ]
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
 }
