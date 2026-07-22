@@ -1,6 +1,6 @@
 # Project Variables — Better Connections
 
-> Pendiente: Crear proyecto en CurseForge
+> Proyecto creado, pendiente de validación
 
 | Variable | Value |
 |---|---|
