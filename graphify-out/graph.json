@@ -4,17 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "label": "build.gradle",
-      "file_type": "code",
-      "source_file": "build.gradle",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "build.gradle",
-      "community_name": "Community 7",
-      "id": "build"
-    },
-    {
       "label": "gradlew",
       "file_type": "code",
       "source_file": "gradlew",
@@ -458,6 +447,17 @@
       "norm_label": "inject",
       "community_name": "Community 1",
       "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_java_inject"
+    },
+    {
+      "label": "build.gradle",
+      "file_type": "code",
+      "source_file": "build.gradle",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "build.gradle",
+      "id": "build",
+      "community_name": "Community 7"
     }
   ],
   "links": [
@@ -999,5 +999,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "01d2afa39d4d7c319a3ab8ee2a43b4255de053b9"
+  "built_at_commit": "1e03652ec32788993cb9397ef91d4a1ca01f5487"
 }
