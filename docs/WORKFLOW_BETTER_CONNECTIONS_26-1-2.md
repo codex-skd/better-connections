@@ -193,7 +193,7 @@ El changelog se envía en formato **HTML**, no Markdown. Aunque CurseForge acept
 | Rama | Propósito |
 |---|---|
 | `main` | Vacía. Solo contiene un commit inicial. No se usa para desarrollo |
-| `minecraft/26.1.2/neoforge-26.1.2.84/production` | Rama de trabajo para Minecraft 26.1.2 / NeoForge 26.1.2.84. Contiene todo el proyecto (incluyendo docs/, lib_ext/, graphify-out/) |
+| `minecraft/26.1.2/neoforge-26.1.2.84/production` | Rama de trabajo para Minecraft 26.1.2 / NeoForge 26.1.2.78. Contiene todo el proyecto (incluyendo docs/, lib_ext/, graphify-out/) |
 | `minecraft/26.1.2/neoforge-26.1.2.84/main` | Rama pública para mirror a GitHub. Solo contiene código fuente compilable. Se actualiza automáticamente vía CI/CD desde su hermana production |
 
 ### Esquema de publicación

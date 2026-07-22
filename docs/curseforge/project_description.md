@@ -28,7 +28,7 @@ Walls connect to fences and wall signs. Create hybrid fences and walls that actu
 <h2>Requirements</h2>
 <table>
 <tr><td><strong>Minecraft</strong></td><td>26.1.2</td></tr>
-<tr><td><strong>NeoForge</strong></td><td>26.1.2.84+</td></tr>
+<tr><td><strong>NeoForge</strong></td><td>26.1.2.78+</td></tr>
 </table>
 <br>
 <h2>Installation</h2>

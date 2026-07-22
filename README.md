@@ -11,7 +11,7 @@ Connects Fences, Walls, and Iron Bars together seamlessly.
 ## Requirements
 
 - Minecraft 26.1.2
-- NeoForge 26.1.2.84+
+- NeoForge 26.1.2.78+
 
 ## Installation
 
