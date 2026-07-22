@@ -1,6 +1,6 @@
 # Flujo de trabajo — Better Connections (NeoForge)
 
-> **Versión del workflow**: 1.0.0 (codex-docs)
+> **Versión del workflow**: 1.1.0 (codex-docs)
 > Este archivo pertenece al proyecto **Better Connections**. Cada proyecto tiene su propio `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 > Para actualizar este workflow, revisar la última versión en `codex-docs/WORKFLOW_GENERIC.md`.
@@ -510,6 +510,13 @@ git push origin 26.1.2-neoforge-beta.3
 # 8. PREGUNTAR: "¿Subir JAR a CurseForge ahora?"
 #    Solo subir si el usuario confirma.
 #    El JAR está en build/libs/better_connections-26.1.2-neoforge-<version>.jar
+
+# 9. Subir a CurseForge usando el script compartido
+#    powershell -File ../codex-docs/scripts/curseforge-upload.ps1
+#
+#    Este script lee project_vars.md (project_id, api_token, game_versions, release_type)
+#    y gradle.properties (mod_id, mod_name, mod_version) y sube el JAR automáticamente.
+#    Es el mismo script para todos los mods, vive en codex-docs.
 ```
 
 ### 5. Release estable
@@ -582,4 +589,5 @@ El código, los logs y los commits siguen el estándar internacional de programa
 
 | Versión | Fecha | Cambios |
 |---|---|---|
+| 1.1.0 | 2026-07-21 | Sincronizado con WORKFLOW_GENERIC.md v1.1.0: script compartido de subida, project_vars.md en key=value, template movido a resources/ |
 | 1.0.0 | 2026-07-21 | Versión inicial: basado en WORKFLOW_GENERIC.md v1.0.0 |
