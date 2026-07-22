@@ -41,6 +41,7 @@ Walls connect to fences and wall signs. Create hybrid fences and walls that actu
 <hr>
 <br>
 <p align="center">
+<img src="https://media.forgecdn.net/avatars/1619735/logo.png" alt="Better Connections logo" width="64" height="64"><br>
 <strong>Better Connections</strong><br>
 <em>Connect your world.</em><br>
 <br>
