@@ -1,6 +1,6 @@
 # Flujo de trabajo — Better Connections (NeoForge)
 
-> **Versión del workflow**: 1.2.4 (codex-docs)
+> **Versión del workflow**: 1.2.7 (codex-docs)
 > Este archivo pertenece al proyecto **Better Connections**. Cada proyecto tiene su propio `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 > Para actualizar este workflow, revisar la última versión en `codex-docs/WORKFLOW_GENERIC.md`.
@@ -192,7 +192,7 @@ El changelog se envía en formato **HTML**, no Markdown. Aunque CurseForge acept
 
 | Rama | Propósito |
 |---|---|---|
-| `main` | ~~Vacía. Solo contiene un commit inicial. No se usa para desarrollo~~ **Eliminar**. La rama por defecto pasa a ser `production`. El `main` raíz sobra y puede borrarse |
+| `main` | Eliminada. La rama por defecto es `*/production`. El `main` raíz ya no existe |
 | `minecraft/26.1.2/neoforge-26.1.2.84/production` | Rama de trabajo. Contiene todo el proyecto: código, docs/, lib_ext/, graphify-out/, tokens reales |
 | `minecraft/26.1.2/neoforge-26.1.2.84/main` | Rama pública para mirror a GitHub. Solo contiene código fuente compilable. Se actualiza automáticamente vía CI/CD desde su hermana production |
 
@@ -241,13 +241,10 @@ git checkout minecraft/26.1.2/neoforge-26.1.2.84/production
 
 Esto solo se hace **una vez por versión**. A partir de ahí el CI/CD mantiene `*/main` actualizada con force push automático.
 
-**2. El operador elimina la rama `main` raíz** (si existe, una sola vez por repo):
+**2. El operador protege la rama `*/main` y configura el mirror** (si no se ha hecho ya):
 
-1. **Settings → Repository → Default branch**: cambiar a `minecraft/26.1.2/neoforge-26.1.2.84/production`
-2. **Settings → Repository → Protected branches**: desproteger `main` si está protegida
-3. **Settings → Repository → Branches**: eliminar `main`
-4. **Settings → Repository → Protected branches**: proteger `minecraft/*/neoforge-*/main` con force push permitido
-5. **Settings → Repository → Mirroring repositories**: configurar mirror a GitHub
+1. **Settings → Repository → Protected branches**: proteger `minecraft/*/neoforge-*/main` con force push permitido
+2. **Settings → Repository → Mirroring repositories**: configurar mirror a GitHub
 
 > ⚠️  Las ramas `*/main` nunca se tocan manualmente después de creadas. Solo el CI/CD escribe en ellas con force push.
 
@@ -420,7 +417,11 @@ publish-public:
     - echo "Publishing to $MAIN_BRANCH"
 
     # Obtener la rama main hermana. Si no existe, falla — el agente debe crearla manualmente.
-    - git fetch origin "$MAIN_BRANCH" 2>/dev/null || (echo "ERROR: $MAIN_BRANCH no existe. Créala desde production primero." && exit 1)
+    - |
+      if ! git fetch origin "$MAIN_BRANCH" 2>/dev/null; then
+        echo "ERROR: $MAIN_BRANCH no existe. Créala desde production primero."
+        exit 1
+      fi
     - git checkout "$MAIN_BRANCH"
 
     # Limpiar y copiar solo archivos públicos desde production
@@ -617,6 +618,7 @@ El código, los logs y los commits siguen el estándar internacional de programa
 
 | Versión | Fecha | Cambios |
 |---|---|---|
+| 1.2.7 | 2026-07-23 | Sincronizado con WORKFLOW_GENERIC.md v1.2.7: fix YAML en CI (bloque `if` en lugar de `|| (&&)`), `*/main` como rama por defecto |
 | 1.2.4 | 2026-07-23 | Sincronizado con WORKFLOW_GENERIC.md v1.2.4: roles agente/operador, `main` raíz eliminable, CI sin auto-create de `*/main`, variables CI/CD grupo |
 | 1.1.0 | 2026-07-21 | Sincronizado con WORKFLOW_GENERIC.md v1.1.0: script compartido de subida, project_vars.md en key=value, template movido a resources/ |
 | 1.0.0 | 2026-07-21 | Versión inicial: basado en WORKFLOW_GENERIC.md v1.0.0 |
