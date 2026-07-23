@@ -456,8 +456,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "build.gradle",
-      "id": "build",
-      "community_name": "Community 7"
+      "community_name": "Community 7",
+      "id": "build"
     }
   ],
   "links": [
@@ -999,5 +999,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "1e03652ec32788993cb9397ef91d4a1ca01f5487"
+  "built_at_commit": "be4e1b9fa8b3628372e19ba36b2cdb2d8cf71244"
 }
