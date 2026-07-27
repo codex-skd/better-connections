@@ -1,6 +1,6 @@
 # Flujo de trabajo — Better Connections (NeoForge)
 
-> **Versión del workflow**: 1.2.7 (codex-docs)
+> **Versión del workflow**: 1.4.0 (codex-docs)
 > Este archivo pertenece al proyecto **Better Connections**. Cada proyecto tiene su propio `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`.
 > No es un archivo central ni template compartido. Los cambios aquí solo afectan a este proyecto.
 > Para actualizar este workflow, revisar la última versión en `codex-docs/WORKFLOW_GENERIC.md`.
@@ -31,6 +31,38 @@ Reglas:
   - `better_connections` → clase `BetterConnections`
 - Las config keys en camelCase: `betterConnections.enableFeature`
 
+## Organización en el workspace
+
+Todos los mods siguen esta estructura en el directorio raíz (`Mods_Minecraft/`), tengan una o varias versiones de Minecraft:
+
+```
+<mod_id>/                    # Carpeta padre del mod (solo organizativa, sin .git)
+└── <minecraft_version>/     # Proyecto real con su propio .git y repositorio GitLab
+    ├── .git/
+    ├── build.gradle
+    ├── gradle.properties
+    ├── src/
+    ├── docs/
+    └── ...
+```
+
+Ejemplo real:
+
+```
+better_connections/          # Mod padre (organizativo, sin .git)
+└── 26.1.2/                  # Repositorio independiente en GitLab
+    ├── .git/
+    ├── gradle.properties → minecraft_version=26.1.2
+    └── ...
+```
+
+**Reglas:**
+- La carpeta padre `<mod_id>/` es solo organizativa, **no tiene `.git`**
+- Cada `<minecraft_version>/` tiene su propio `.git/` y es un repositorio independiente en GitLab
+- El `mod_id` en `gradle.properties` debe coincidir con la carpeta padre
+- La rama default del repo es `minecraft/<mc-version>/neoforge-<neo-version>/production`
+- El nombre del workflow sigue el patrón `WORKFLOW_<MOD_ID>_<MC-VERSION>.md`
+
 ## Tipografía
 
 | Ámbito | Fuente |
@@ -43,42 +75,43 @@ Reglas:
 
 ```
 better_connections/
-├── build.gradle                        # Build con net.neoforged.moddev
-├── gradle.properties                   # mod_id, mod_version, mod_group_id...
-├── settings.gradle
-├── src/
-│   ├── main/
-│   │   ├── java/com/skd/betterconnections/  # Código fuente del mod
-│   │   ├── resources/
-│   │   │   ├── assets/better_connections/   # Texturas, shaders, lang, modelos...
-│   │   │   │   └── icon.png                # Logo del mod (64x64 píxeles)
-│   │   │   ├── templates/
-│   │   │   │   └── META-INF/
-│   │   │   │       └── neoforge.mods.toml  # Template con placeholders ${...}
-│   │   │   ├── META-INF/
-│   │   │   │   └── accesstransformer.cfg
-│   │   │   ├── better_connections.mixins.json
-│   │   │   └── better_connections.png       # Logo del mod
-│   │   └── templates/                       # (alternativa legacy, evitar)
-│   │       └── META-INF/
-│   │           └── neoforge.mods.toml
-│   ├── main/java/...                        # Código fuente
-├── libs/                                    # Dependencias reales del mod (JARs necesarios para compilar). Versionado.
-├── lib_ext/                                 # Librerías externas para análisis de la sesión. NO versionado (.gitignore).
-├── temp/                                    # Archivos temporales: investigaciones, prototipos, JARs extraídos, pruebas. NO versionado (.gitignore).
-├── docs/
-│   ├── WORKFLOW_BETTER_CONNECTIONS_26-1-2.md  # Este documento
-│   └── curseforge/                           # Documentación para publicación en CurseForge
-│       ├── project_vars.md                   # Variables del proyecto (ID, token, versiones)
-│       ├── project_description.md            # Descripción del proyecto
-│       └── versions/                         # Release notes por versión
-├── CHANGELOG.md
-├── README.md
-├── graphify-out/                             # Knowledge Graph (generado por Graphify). Versionado en GitLab, NO va a GitHub (excluido por CI).
-│   ├── graph.html
-│   ├── GRAPH_REPORT.md
-│   └── graph.json
-└── .gitlab-ci.yml                            # CI/CD: publica código limpio a main para mirror a GitHub
+└── 26.1.2/                                  # Repositorio real con .git
+    ├── build.gradle                          # Build con net.neoforged.moddev
+    ├── gradle.properties                     # mod_id, mod_version, mod_group_id...
+    ├── settings.gradle
+    ├── src/
+    │   ├── main/
+    │   │   ├── java/com/skd/betterconnections/  # Código fuente del mod
+    │   │   ├── resources/
+    │   │   │   ├── assets/better_connections/   # Texturas, shaders, lang, modelos...
+    │   │   │   │   └── icon.png                # Logo del mod (64x64 píxeles)
+    │   │   │   ├── templates/
+    │   │   │   │   └── META-INF/
+    │   │   │   │       └── neoforge.mods.toml  # Template con placeholders ${...}
+    │   │   │   ├── META-INF/
+    │   │   │   │   └── accesstransformer.cfg
+    │   │   │   ├── better_connections.mixins.json
+    │   │   │   └── better_connections.png       # Logo del mod
+    │   │   └── templates/                       # (alternativa legacy, evitar)
+    │   │       └── META-INF/
+    │   │           └── neoforge.mods.toml
+    │   ├── main/java/...                        # Código fuente
+    ├── libs/                                    # Dependencias reales del mod (JARs necesarios para compilar). Versionado.
+    ├── lib_ext/                                 # Librerías externas para análisis de la sesión. NO versionado (.gitignore).
+    ├── temp/                                    # Archivos temporales: investigaciones, prototipos, JARs extraídos, pruebas. NO versionado (.gitignore).
+    ├── docs/
+    │   ├── WORKFLOW_BETTER_CONNECTIONS_26-1-2.md  # Este documento
+    │   └── curseforge/                           # Documentación para publicación en CurseForge
+    │       ├── project_vars.md                   # Variables del proyecto (ID, token, versiones)
+    │       ├── project_description.md            # Descripción del proyecto
+    │       └── versions/                         # Release notes por versión
+    ├── CHANGELOG.md
+    ├── README.md
+    ├── graphify-out/                             # Knowledge Graph (generado por Graphify). Versionado en GitLab, NO va a GitHub (excluido por CI).
+    │   ├── graph.html
+    │   ├── GRAPH_REPORT.md
+    │   └── graph.json
+    └── .gitlab-ci.yml                            # CI/CD: publica código limpio a main para mirror a GitHub
 ```
 
 ### Archivos de CurseForge
@@ -618,7 +651,7 @@ El código, los logs y los commits siguen el estándar internacional de programa
 
 | Versión | Fecha | Cambios |
 |---|---|---|
-| 1.2.7 | 2026-07-23 | Sincronizado con WORKFLOW_GENERIC.md v1.2.7: fix YAML en CI (bloque `if` en lugar de `|| (&&)`), `*/main` como rama por defecto |
+| 1.4.0 | 2026-07-23 | Sincronizado con WORKFLOW_GENERIC.md v1.4.0: organización en workspace `<mod_id>/<mc-version>/` |
 | 1.2.4 | 2026-07-23 | Sincronizado con WORKFLOW_GENERIC.md v1.2.4: roles agente/operador, `main` raíz eliminable, CI sin auto-create de `*/main`, variables CI/CD grupo |
 | 1.1.0 | 2026-07-21 | Sincronizado con WORKFLOW_GENERIC.md v1.1.0: script compartido de subida, project_vars.md en key=value, template movido a resources/ |
 | 1.0.0 | 2026-07-21 | Versión inicial: basado en WORKFLOW_GENERIC.md v1.0.0 |
