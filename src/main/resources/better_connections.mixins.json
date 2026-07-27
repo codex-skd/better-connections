@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "package": "com.skd.betterconnections.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "FenceBlockMixin",
+        "PaneBlockMixin",
+        "WallBlockMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
