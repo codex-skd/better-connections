@@ -1,4 +1,4 @@
-# Graph Report - .  (2026-07-27)
+# Graph Report - G:\Proyectos\Mods_Minecraft\better_connections\26.2  (2026-07-28)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
@@ -8,19 +8,14 @@
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
-## Graph Freshness
-- Built from commit: `44fa6d54`
-- Run `git rev-parse HEAD` and compare to check if the graph is stale.
-- Run `graphify update .` after code changes (no API cost).
-
 ## Community Hubs (Navigation)
-- Community 0
-- Community 1
-- Community 2
-- Community 3
-- Community 4
-- Community 5
-- Community 6
+- FenceBlockMixin.java
+- WallBlockMixin.java
+- PaneBlockMixin.java
+- BetterConnections
+- gradlew
+- BetterConnectionsClient
+- Config.java
 
 ## God Nodes (most connected - your core abstractions)
 1. `BetterConnections` - 4 edges
@@ -38,23 +33,23 @@
 
 ## Communities (9 total, 2 thin omitted)
 
-### Community 0 - "Community 0"
+### Community 0 - "FenceBlockMixin.java"
 Cohesion: 0.43
 Nodes (6): FenceBlockMixin, BlockState, CallbackInfoReturnable, Direction, Inject, Mixin
 
-### Community 1 - "Community 1"
+### Community 1 - "WallBlockMixin.java"
 Cohesion: 0.43
 Nodes (6): BlockState, CallbackInfoReturnable, Direction, Inject, Mixin, WallBlockMixin
 
-### Community 2 - "Community 2"
+### Community 2 - "PaneBlockMixin.java"
 Cohesion: 0.48
 Nodes (5): BlockState, CallbackInfoReturnable, Inject, Mixin, PaneBlockMixin
 
-### Community 3 - "Community 3"
+### Community 3 - "BetterConnections"
 Cohesion: 0.60
 Nodes (3): Logger, BetterConnections, Mod
 
-### Community 4 - "Community 4"
+### Community 4 - "gradlew"
 Cohesion: 0.83
 Nodes (3): gradlew script, die(), warn()
 

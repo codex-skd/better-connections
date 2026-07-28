@@ -4,6 +4,17 @@
   "graph": {},
   "nodes": [
     {
+      "label": "build.gradle",
+      "file_type": "code",
+      "source_file": "build.gradle",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "build.gradle",
+      "id": "build",
+      "community_name": "build.gradle"
+    },
+    {
       "label": "gradlew",
       "file_type": "code",
       "source_file": "gradlew",
@@ -15,8 +26,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "gradlew",
-      "community_name": "Community 4",
-      "id": "gradlew"
+      "id": "gradlew",
+      "community_name": "gradlew"
     },
     {
       "label": "gradlew script",
@@ -30,8 +41,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "gradlew script",
-      "community_name": "Community 4",
-      "id": "gradlew__entry"
+      "id": "gradlew__entry",
+      "community_name": "gradlew"
     },
     {
       "label": "warn()",
@@ -45,8 +56,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "warn()",
-      "community_name": "Community 4",
-      "id": "gradlew_warn"
+      "id": "gradlew_warn",
+      "community_name": "gradlew"
     },
     {
       "label": "die()",
@@ -60,8 +71,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "die()",
-      "community_name": "Community 4",
-      "id": "gradlew_die"
+      "id": "gradlew_die",
+      "community_name": "gradlew"
     },
     {
       "label": "settings.gradle",
@@ -71,8 +82,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "settings.gradle",
-      "community_name": "Community 8",
-      "id": "settings"
+      "id": "settings",
+      "community_name": "settings.gradle"
     },
     {
       "label": "BetterConnections.java",
@@ -82,8 +93,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "betterconnections.java",
-      "community_name": "Community 3",
-      "id": "src_main_java_com_skd_betterconnections_betterconnections"
+      "id": "src_main_java_com_skd_betterconnections_betterconnections",
+      "community_name": "BetterConnections"
     },
     {
       "label": "BetterConnections",
@@ -93,8 +104,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "betterconnections",
-      "community_name": "Community 3",
-      "id": "src_main_java_com_skd_betterconnections_betterconnections_betterconnections"
+      "id": "src_main_java_com_skd_betterconnections_betterconnections_betterconnections",
+      "community_name": "BetterConnections"
     },
     {
       "label": "Mod",
@@ -104,8 +115,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "mod",
-      "community_name": "Community 3",
-      "id": "src_main_java_com_skd_betterconnections_betterconnections_java_mod"
+      "id": "src_main_java_com_skd_betterconnections_betterconnections_java_mod",
+      "community_name": "BetterConnections"
     },
     {
       "label": "Logger",
@@ -115,8 +126,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "logger",
-      "community_name": "Community 3",
-      "id": "logger"
+      "id": "logger",
+      "community_name": "BetterConnections"
     },
     {
       "label": ".BetterConnections()",
@@ -126,8 +137,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".betterconnections()",
-      "community_name": "Community 3",
-      "id": "src_main_java_com_skd_betterconnections_betterconnections_betterconnections_betterconnections"
+      "id": "src_main_java_com_skd_betterconnections_betterconnections_betterconnections_betterconnections",
+      "community_name": "BetterConnections"
     },
     {
       "label": "BetterConnectionsClient.java",
@@ -137,8 +148,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "betterconnectionsclient.java",
-      "community_name": "Community 5",
-      "id": "src_main_java_com_skd_betterconnections_betterconnectionsclient"
+      "id": "src_main_java_com_skd_betterconnections_betterconnectionsclient",
+      "community_name": "BetterConnectionsClient"
     },
     {
       "label": "BetterConnectionsClient",
@@ -148,8 +159,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "betterconnectionsclient",
-      "community_name": "Community 5",
-      "id": "src_main_java_com_skd_betterconnections_betterconnectionsclient_betterconnectionsclient"
+      "id": "src_main_java_com_skd_betterconnections_betterconnectionsclient_betterconnectionsclient",
+      "community_name": "BetterConnectionsClient"
     },
     {
       "label": "Mod",
@@ -159,8 +170,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "mod",
-      "community_name": "Community 5",
-      "id": "src_main_java_com_skd_betterconnections_betterconnectionsclient_java_mod"
+      "id": "src_main_java_com_skd_betterconnections_betterconnectionsclient_java_mod",
+      "community_name": "BetterConnectionsClient"
     },
     {
       "label": ".BetterConnectionsClient()",
@@ -170,8 +181,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".betterconnectionsclient()",
-      "community_name": "Community 5",
-      "id": "src_main_java_com_skd_betterconnections_betterconnectionsclient_betterconnectionsclient_betterconnectionsclient"
+      "id": "src_main_java_com_skd_betterconnections_betterconnectionsclient_betterconnectionsclient_betterconnectionsclient",
+      "community_name": "BetterConnectionsClient"
     },
     {
       "label": "Config.java",
@@ -181,8 +192,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "config.java",
-      "community_name": "Community 6",
-      "id": "src_main_java_com_skd_betterconnections_config"
+      "id": "src_main_java_com_skd_betterconnections_config",
+      "community_name": "Config.java"
     },
     {
       "label": "Config",
@@ -192,8 +203,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "config",
-      "community_name": "Community 6",
-      "id": "src_main_java_com_skd_betterconnections_config_config"
+      "id": "src_main_java_com_skd_betterconnections_config_config",
+      "community_name": "Config.java"
     },
     {
       "label": "FenceBlockMixin.java",
@@ -203,8 +214,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "fenceblockmixin.java",
-      "community_name": "Community 0",
-      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin"
+      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin",
+      "community_name": "FenceBlockMixin.java"
     },
     {
       "label": "FenceBlockMixin",
@@ -214,8 +225,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "fenceblockmixin",
-      "community_name": "Community 0",
-      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_fenceblockmixin"
+      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_fenceblockmixin",
+      "community_name": "FenceBlockMixin.java"
     },
     {
       "label": "Mixin",
@@ -225,8 +236,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "mixin",
-      "community_name": "Community 0",
-      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_java_mixin"
+      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_java_mixin",
+      "community_name": "FenceBlockMixin.java"
     },
     {
       "label": ".betterConnections$connectsTo()",
@@ -236,8 +247,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".betterconnections$connectsto()",
-      "community_name": "Community 0",
-      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_fenceblockmixin_betterconnections_connectsto"
+      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_fenceblockmixin_betterconnections_connectsto",
+      "community_name": "FenceBlockMixin.java"
     },
     {
       "label": "BlockState",
@@ -247,8 +258,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "blockstate",
-      "community_name": "Community 0",
-      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_java_blockstate"
+      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_java_blockstate",
+      "community_name": "FenceBlockMixin.java"
     },
     {
       "label": "Direction",
@@ -258,8 +269,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "direction",
-      "community_name": "Community 0",
-      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_java_direction"
+      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_java_direction",
+      "community_name": "FenceBlockMixin.java"
     },
     {
       "label": "CallbackInfoReturnable",
@@ -269,8 +280,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "callbackinforeturnable",
-      "community_name": "Community 0",
-      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_java_callbackinforeturnable"
+      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_java_callbackinforeturnable",
+      "community_name": "FenceBlockMixin.java"
     },
     {
       "label": "Inject",
@@ -280,8 +291,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "inject",
-      "community_name": "Community 0",
-      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_java_inject"
+      "id": "src_main_java_com_skd_betterconnections_mixin_fenceblockmixin_java_inject",
+      "community_name": "FenceBlockMixin.java"
     },
     {
       "label": "PaneBlockMixin.java",
@@ -291,8 +302,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "paneblockmixin.java",
-      "community_name": "Community 2",
-      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin"
+      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin",
+      "community_name": "PaneBlockMixin.java"
     },
     {
       "label": "PaneBlockMixin",
@@ -302,8 +313,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "paneblockmixin",
-      "community_name": "Community 2",
-      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin_paneblockmixin"
+      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin_paneblockmixin",
+      "community_name": "PaneBlockMixin.java"
     },
     {
       "label": "Mixin",
@@ -313,8 +324,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "mixin",
-      "community_name": "Community 2",
-      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin_java_mixin"
+      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin_java_mixin",
+      "community_name": "PaneBlockMixin.java"
     },
     {
       "label": ".betterConnections$attachsTo()",
@@ -324,8 +335,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": ".betterconnections$attachsto()",
-      "community_name": "Community 2",
-      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin_paneblockmixin_betterconnections_attachsto"
+      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin_paneblockmixin_betterconnections_attachsto",
+      "community_name": "PaneBlockMixin.java"
     },
     {
       "label": "BlockState",
@@ -335,8 +346,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "blockstate",
-      "community_name": "Community 2",
-      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin_java_blockstate"
+      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin_java_blockstate",
+      "community_name": "PaneBlockMixin.java"
     },
     {
       "label": "CallbackInfoReturnable",
@@ -346,8 +357,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "callbackinforeturnable",
-      "community_name": "Community 2",
-      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin_java_callbackinforeturnable"
+      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin_java_callbackinforeturnable",
+      "community_name": "PaneBlockMixin.java"
     },
     {
       "label": "Inject",
@@ -357,8 +368,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "inject",
-      "community_name": "Community 2",
-      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin_java_inject"
+      "id": "src_main_java_com_skd_betterconnections_mixin_paneblockmixin_java_inject",
+      "community_name": "PaneBlockMixin.java"
     },
     {
       "label": "WallBlockMixin.java",
@@ -368,8 +379,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "wallblockmixin.java",
-      "community_name": "Community 1",
-      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin"
+      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin",
+      "community_name": "WallBlockMixin.java"
     },
     {
       "label": "WallBlockMixin",
@@ -379,8 +390,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "wallblockmixin",
-      "community_name": "Community 1",
-      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_wallblockmixin"
+      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_wallblockmixin",
+      "community_name": "WallBlockMixin.java"
     },
     {
       "label": "Mixin",
@@ -390,8 +401,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "mixin",
-      "community_name": "Community 1",
-      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_java_mixin"
+      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_java_mixin",
+      "community_name": "WallBlockMixin.java"
     },
     {
       "label": ".betterConnections$connectsTo()",
@@ -401,8 +412,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": ".betterconnections$connectsto()",
-      "community_name": "Community 1",
-      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_wallblockmixin_betterconnections_connectsto"
+      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_wallblockmixin_betterconnections_connectsto",
+      "community_name": "WallBlockMixin.java"
     },
     {
       "label": "BlockState",
@@ -412,8 +423,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "blockstate",
-      "community_name": "Community 1",
-      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_java_blockstate"
+      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_java_blockstate",
+      "community_name": "WallBlockMixin.java"
     },
     {
       "label": "Direction",
@@ -423,8 +434,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "direction",
-      "community_name": "Community 1",
-      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_java_direction"
+      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_java_direction",
+      "community_name": "WallBlockMixin.java"
     },
     {
       "label": "CallbackInfoReturnable",
@@ -434,8 +445,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "callbackinforeturnable",
-      "community_name": "Community 1",
-      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_java_callbackinforeturnable"
+      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_java_callbackinforeturnable",
+      "community_name": "WallBlockMixin.java"
     },
     {
       "label": "Inject",
@@ -445,19 +456,8 @@
       "_origin": "ast",
       "community": 1,
       "norm_label": "inject",
-      "community_name": "Community 1",
-      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_java_inject"
-    },
-    {
-      "label": "build.gradle",
-      "file_type": "code",
-      "source_file": "build.gradle",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "build.gradle",
-      "community_name": "Community 7",
-      "id": "build"
+      "id": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_java_inject",
+      "community_name": "WallBlockMixin.java"
     }
   ],
   "links": [
@@ -998,6 +998,5 @@
       "target": "src_main_java_com_skd_betterconnections_mixin_wallblockmixin_java_inject"
     }
   ],
-  "hyperedges": [],
-  "built_at_commit": "44fa6d5439e051739a75ac13842ab0d2c1752777"
+  "hyperedges": []
 }
