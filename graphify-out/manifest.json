@@ -53,5 +53,65 @@
     "mtime": 1785148956.445529,
     "ast_hash": "293fd414694587add95e97b943857ed3",
     "semantic_hash": "293fd414694587add95e97b943857ed3"
+  },
+  ".claude/CLAUDE.md": {
+    "mtime": 1785489187.9145823,
+    "ast_hash": "c0672b45161b2344c17fe5337a643f2c",
+    "semantic_hash": ""
+  },
+  ".gitlab-ci.yml": {
+    "mtime": 1785801080.28486,
+    "ast_hash": "14c0a4ad0f5bec65ebfaf8c37e148365",
+    "semantic_hash": ""
+  },
+  "CHANGELOG.md": {
+    "mtime": 1785972327.5397348,
+    "ast_hash": "31d6600ef12d71366e0dc84537eee4f8",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1785148960.8257215,
+    "ast_hash": "4018f81e953f7b1125f4b82a875eed15",
+    "semantic_hash": ""
+  },
+  "docs/WORKFLOW_BETTER_CONNECTIONS_26-2.md": {
+    "mtime": 1785626678.1394234,
+    "ast_hash": "7ac945d086fce3a14ca0160d190e8339",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/project_description.md": {
+    "mtime": 1785148965.0632205,
+    "ast_hash": "30777667f6e9e5991638154f11d7c768",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/project_vars.md": {
+    "mtime": 1785227940.353506,
+    "ast_hash": "f61cdf6757542ea7afb6f1835cce671c",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.1.md": {
+    "mtime": 1785149898.7150114,
+    "ast_hash": "8aed2ed6a08db50089a157a8a6574919",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.0.md": {
+    "mtime": 1785227948.865903,
+    "ast_hash": "9b856ff1e2cc31c0b6eaa861d0d73f6b",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.1.md": {
+    "mtime": 1785972327.5397348,
+    "ast_hash": "11725adc0e1460dbe54929fa4267eb9a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/better_connections/icon.png": {
+    "mtime": 1785148930.7260091,
+    "ast_hash": "a6dbd78777061c798fbcbafafad6599a",
+    "semantic_hash": ""
+  },
+  "src/main/resources/better_connections.png": {
+    "mtime": 1785148930.6800966,
+    "ast_hash": "a6dbd78777061c798fbcbafafad6599a",
+    "semantic_hash": ""
   }
 }
