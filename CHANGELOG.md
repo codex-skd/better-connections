@@ -1,5 +1,12 @@
 # Changelog — Better Connections (NeoForge)
 
+
+## [1.0.2] - 2026-08-12
+
+### Change
+
+- **Nombre de JAR con versión del cargador**: el artefacto ahora se compila como `better_connections-26.2-neoforge-26.2.0.37-beta-1.0.2.jar` (se añade la versión de cargador/NeoForge al nombre del archivo). Empaquetado y documentación; sin cambios de funcionalidad.
+
 ## 1.0.0 — 2026-07-27
 
 - Primer release estable para Minecraft 26.2 / NeoForge 26.2.0.32-beta
