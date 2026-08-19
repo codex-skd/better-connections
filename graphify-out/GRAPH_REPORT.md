@@ -1,16 +1,16 @@
-# Graph Report - 26.2  (2026-08-06)
+# Graph Report - 26.2  (2026-08-20)
 
 ## Corpus Check
-- 20 files · ~67,085 words
+- 24 files · ~67,361 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 83 nodes · 52 edges · 34 communities (11 shown, 23 thin omitted)
+- 95 nodes · 60 edges · 38 communities (14 shown, 24 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `924775a9`
+- Built from commit: `6febc5e7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -27,6 +27,7 @@
 - WallBlockMixin
 - project_vars.md
 - Config
+- build.gradle
 - Mod
 - Mod
 - BlockState
@@ -45,7 +46,7 @@
 - Mixin
 
 ## God Nodes (most connected - your core abstractions)
-1. `Changelog — Better Connections (NeoForge)` - 13 edges
+1. `Changelog — Better Connections (NeoForge)` - 16 edges
 2. `Flujo de trabajo — Better Connections (NeoForge)` - 11 edges
 3. `Better Connections` - 5 edges
 4. `BetterConnections` - 3 edges
@@ -54,7 +55,7 @@
 7. `FenceBlockMixin` - 2 edges
 8. `PaneBlockMixin` - 2 edges
 9. `WallBlockMixin` - 2 edges
-10. `[1.0.1] - 2026-08-05` - 2 edges
+10. `[1.1.0] - 2026-08-19` - 2 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -62,11 +63,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (34 total, 23 thin omitted)
+## Communities (38 total, 24 thin omitted)
 
 ### Community 0 - "FenceBlockMixin.java"
-Cohesion: 0.13
-Nodes (14): 0.0.0-beta.1 — 2026-07-21, 0.0.0-beta.1 — 2026-07-21, 0.0.0-beta.1 — 2026-07-27, 0.0.0-beta.1 — 2026-07-27, 0.0.0-beta.2 — 2026-07-21, 0.0.0-beta.2 — 2026-07-21, 1.0.0 — 2026-07-21, 1.0.0 — 2026-07-21 (+6 more)
+Cohesion: 0.10
+Nodes (20): 0.0.0-beta.1 — 2026-07-21, 0.0.0-beta.1 — 2026-07-21, 0.0.0-beta.1 — 2026-07-27, 0.0.0-beta.1 — 2026-07-27, 0.0.0-beta.2 — 2026-07-21, 0.0.0-beta.2 — 2026-07-21, 1.0.0 — 2026-07-21, 1.0.0 — 2026-07-21 (+12 more)
 
 ### Community 1 - "WallBlockMixin.java"
 Cohesion: 0.17
@@ -85,14 +86,14 @@ Cohesion: 0.83
 Nodes (3): gradlew script, die(), warn()
 
 ## Knowledge Gaps
-- **30 isolated node(s):** `Config`, `Workflow del mod`, `Prioridad de instrucciones`, `1.0.0 — 2026-07-27`, `0.0.0-beta.1 — 2026-07-27` (+25 more)
+- **34 isolated node(s):** `Config`, `Workflow del mod`, `Prioridad de instrucciones`, `Change`, `Change` (+29 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **24 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `Config`, `Workflow del mod`, `Prioridad de instrucciones` to the rest of the system?**
-  _30 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _34 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `FenceBlockMixin.java` be split into smaller, more focused modules?**
-  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._

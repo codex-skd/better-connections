@@ -1,8 +1,8 @@
 {
   "build.gradle": {
-    "mtime": 1785148938.429058,
-    "ast_hash": "301d0ed0e52f6303a616bbdef6eca5aa",
-    "semantic_hash": "301d0ed0e52f6303a616bbdef6eca5aa"
+    "mtime": 1787044466.270471,
+    "ast_hash": "6f73663ec73daac616ca6d457df479ba",
+    "semantic_hash": ""
   },
   "gradlew": {
     "mtime": 1785148930.5642433,
@@ -65,8 +65,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1785972327.5397348,
-    "ast_hash": "31d6600ef12d71366e0dc84537eee4f8",
+    "mtime": 1787179051.3939395,
+    "ast_hash": "03f9458045e6413655b358be5c6336f5",
     "semantic_hash": ""
   },
   "README.md": {
@@ -75,8 +75,8 @@
     "semantic_hash": ""
   },
   "docs/WORKFLOW_BETTER_CONNECTIONS_26-2.md": {
-    "mtime": 1785626678.1394234,
-    "ast_hash": "7ac945d086fce3a14ca0160d190e8339",
+    "mtime": 1787179051.4849336,
+    "ast_hash": "51c46c6a172d4f98942ae730f6a32b66",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
@@ -85,7 +85,7 @@
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1785227940.353506,
+    "mtime": 1787179051.503678,
     "ast_hash": "f61cdf6757542ea7afb6f1835cce671c",
     "semantic_hash": ""
   },
@@ -112,6 +112,26 @@
   "src/main/resources/better_connections.png": {
     "mtime": 1785148930.6800966,
     "ast_hash": "a6dbd78777061c798fbcbafafad6599a",
+    "semantic_hash": ""
+  },
+  "CHANGELOG_NEW.md": {
+    "mtime": 1787043965.2508507,
+    "ast_hash": "b5259eb1c3c05289893f2af17d718662",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.2.md": {
+    "mtime": 1786569058.452757,
+    "ast_hash": "eee72b7836f6947225d61c544540f5fe",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.3.md": {
+    "mtime": 1787060013.41637,
+    "ast_hash": "7d7fefe59d9598447e9eeba260bfdd7f",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.1.0.md": {
+    "mtime": 1787179045.0099816,
+    "ast_hash": "f04a28afe1c6daf1f2b10e2c385e7b48",
     "semantic_hash": ""
   }
 }
