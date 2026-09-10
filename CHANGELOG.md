@@ -1,6 +1,8 @@
 # Changelog — Better Connections (NeoForge)
 
-## [Unreleased]
+## [0.0.0-beta.2] - 2026-09-10
+
+Sin cambios funcionales: el comportamiento de conexión es idéntico al de `0.0.0-beta.1`.
 
 ### Change
 
@@ -8,8 +10,18 @@
   licencia del original BetterWalls (declarada AGPL-3.0 en sus páginas de Modrinth y CurseForge).
   Añadidos `LICENSE` (texto completo AGPL-3.0) y `NOTICE` (atribución a Lemonnik6484 / JX_Snack,
   origen del port y discrepancia conocida con el fichero `LICENSE` de su GitHub). El JAR ahora
-  incluye `LICENSE` y `NOTICE` en `META-INF/`.
-- Pendiente manual: alinear el campo de licencia del proyecto en CurseForge a AGPLv3.
+  incluye `LICENSE` y `NOTICE` en `META-INF/`; el metadato del mod declara `license = "AGPL-3.0-only"`.
+- **`project_description.md`**: reescrita con el formato visual estándar de los mods SKD (cabecera
+  con emoji + badges de shields.io, Overview a dos columnas con el logo de Codex, secciones
+  Features / Mod Structure / Requirements / Available Versions / How to Use / Credits &amp; License,
+  pie con el logo). Añadida la tabla *Available Versions* con las tres ramas (26.1.2, 26.2, 1.21.1).
+- **`docs/curseforge/versions/`**: eliminadas las release notes de la línea 26.2 (`1.0.0`–`1.1.0`),
+  que no pertenecen a la rama 1.21.1.
+- Pendiente manual: alinear el campo de licencia del proyecto en la web de CurseForge a AGPLv3.
+
+### JAR
+
+- `better_connections-1.21.1-neoforge-21.1.249-0.0.0-beta.2.jar`
 
 
 ## [0.0.0-beta.1] - 2026-09-10
