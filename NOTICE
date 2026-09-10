@@ -1,0 +1,39 @@
+Better Connections
+Copyright (c) 2026 Stalking Dragons
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, version 3. See the LICENSE file for the full text.
+
+------------------------------------------------------------------------------
+Upstream work
+------------------------------------------------------------------------------
+
+Better Connections is a derivative work (a Fabric-to-NeoForge port, with
+additional block/tag compatibility) of:
+
+    BetterWalls
+    by Lemonnik6484 (Lemonnik) and JX_Snack
+    Source:    https://github.com/Lemon4ik6484/BetterWalls
+    Modrinth:  https://modrinth.com/mod/betterwalls
+    CurseForge: https://www.curseforge.com/minecraft/mc-mods/better-walls
+
+The port was first created in July 2026 from the then-current BetterWalls
+source. The exact upstream commit was not recorded at the time; it should be
+pinned here when identified.
+
+------------------------------------------------------------------------------
+Licensing basis and known discrepancy
+------------------------------------------------------------------------------
+
+BetterWalls is published under the GNU Affero General Public License v3.0
+("AGPL-3.0") on both of its distribution pages (Modrinth and CurseForge).
+Better Connections is therefore licensed under AGPL-3.0-only, as required for
+a derivative work.
+
+As of 2026-09-10, the LICENSE file in the upstream GitHub repository instead
+reads "All Rights Reserved. Copyright (c) 2024 Lemonnik". This conflicts with
+the AGPL-3.0 declared on the upstream's own Modrinth and CurseForge project
+pages. This NOTICE and our licensing choice rely on the AGPL-3.0 grant
+published on those distribution pages. If you are the upstream author and this
+is incorrect, please contact Stalking Dragons.

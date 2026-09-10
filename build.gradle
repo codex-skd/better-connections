@@ -123,3 +123,9 @@ idea {
         downloadJavadoc = true
     }
 }
+
+// Bundle license and attribution into the mod JAR (AGPL-3.0 obligations for a derivative work).
+tasks.named('jar', Jar) {
+    from(project.file('LICENSE')) { into 'META-INF' }
+    from(project.file('NOTICE')) { into 'META-INF' }
+}
