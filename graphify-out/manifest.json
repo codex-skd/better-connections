@@ -1,137 +1,137 @@
 {
   "build.gradle": {
-    "mtime": 1787044466.270471,
-    "ast_hash": "6f73663ec73daac616ca6d457df479ba",
+    "mtime": 1789039335.386494,
+    "ast_hash": "98a740ab88f9533263cc68ca76be19b7",
     "semantic_hash": ""
   },
   "gradlew": {
-    "mtime": 1785148930.5642433,
+    "mtime": 1789039215.2760644,
     "ast_hash": "794669d78aef1dd5c7d889ef618b311a",
     "semantic_hash": "794669d78aef1dd5c7d889ef618b311a"
   },
   "settings.gradle": {
-    "mtime": 1785148938.926637,
+    "mtime": 1789039215.2821088,
     "ast_hash": "58a5df05c6546d7d2671a516793e02e7",
     "semantic_hash": "58a5df05c6546d7d2671a516793e02e7"
   },
   "src/main/java/com/skd/betterconnections/BetterConnections.java": {
-    "mtime": 1785148947.9019222,
+    "mtime": 1789039213.956579,
     "ast_hash": "203c32207bbc7d0a4b63c869e27032c8",
     "semantic_hash": "203c32207bbc7d0a4b63c869e27032c8"
   },
   "src/main/java/com/skd/betterconnections/BetterConnectionsClient.java": {
-    "mtime": 1785148948.8473856,
+    "mtime": 1789039213.9570775,
     "ast_hash": "3eb2d4e4519d1bdedb9505415f3088e7",
     "semantic_hash": "3eb2d4e4519d1bdedb9505415f3088e7"
   },
   "src/main/java/com/skd/betterconnections/Config.java": {
-    "mtime": 1785148948.9510741,
+    "mtime": 1789039213.9586053,
     "ast_hash": "30957ecc6d8b87ee5d8c85fffb4e5507",
     "semantic_hash": "30957ecc6d8b87ee5d8c85fffb4e5507"
   },
   "src/main/java/com/skd/betterconnections/mixin/FenceBlockMixin.java": {
-    "mtime": 1785148950.5589576,
+    "mtime": 1789039213.9520266,
     "ast_hash": "4c414ee12803d0cd275cc8f3f188dd84",
     "semantic_hash": "4c414ee12803d0cd275cc8f3f188dd84"
   },
   "src/main/java/com/skd/betterconnections/mixin/PaneBlockMixin.java": {
-    "mtime": 1785148951.9598348,
+    "mtime": 1789039213.9530282,
     "ast_hash": "a95c48a3f0d33c19f71b3cf00f3b12dc",
     "semantic_hash": "a95c48a3f0d33c19f71b3cf00f3b12dc"
   },
   "src/main/java/com/skd/betterconnections/mixin/WallBlockMixin.java": {
-    "mtime": 1785148953.3391192,
+    "mtime": 1789039213.9545763,
     "ast_hash": "89ef088433c466d83dfa135be1064dbb",
     "semantic_hash": "89ef088433c466d83dfa135be1064dbb"
   },
   "src/main/resources/assets/better_connections/lang/en_us.json": {
-    "mtime": 1785148956.8053854,
+    "mtime": 1789039213.9611058,
     "ast_hash": "5b76b0eef9af8a2300673e0553f609f9",
     "semantic_hash": "5b76b0eef9af8a2300673e0553f609f9"
   },
   "src/main/resources/better_connections.mixins.json": {
-    "mtime": 1785148956.445529,
-    "ast_hash": "293fd414694587add95e97b943857ed3",
-    "semantic_hash": "293fd414694587add95e97b943857ed3"
+    "mtime": 1789039338.2637548,
+    "ast_hash": "d87757e6305c3e9a1bddd613e911aec6",
+    "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
-    "mtime": 1785489187.9145823,
-    "ast_hash": "c0672b45161b2344c17fe5337a643f2c",
+    "mtime": 1789039712.7877288,
+    "ast_hash": "d941da2295aec10201e988d1ed5bf80b",
     "semantic_hash": ""
   },
   ".gitlab-ci.yml": {
-    "mtime": 1785801080.28486,
+    "mtime": 1789039219.8225064,
     "ast_hash": "14c0a4ad0f5bec65ebfaf8c37e148365",
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1787179051.3939395,
-    "ast_hash": "03f9458045e6413655b358be5c6336f5",
+    "mtime": 1789039730.231739,
+    "ast_hash": "14c27b7d3514ad41edea9f0aa6b24828",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1785148960.8257215,
-    "ast_hash": "4018f81e953f7b1125f4b82a875eed15",
-    "semantic_hash": ""
-  },
-  "docs/WORKFLOW_BETTER_CONNECTIONS_26-2.md": {
-    "mtime": 1787179051.4849336,
-    "ast_hash": "51c46c6a172d4f98942ae730f6a32b66",
+    "mtime": 1789039715.582874,
+    "ast_hash": "4a2cdf1a244ded64d130fb17d61243ac",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
-    "mtime": 1785148965.0632205,
-    "ast_hash": "30777667f6e9e5991638154f11d7c768",
+    "mtime": 1789039734.589308,
+    "ast_hash": "cd14d98e0b417bbf56d9dbc558d4ab18",
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1787179051.503678,
+    "mtime": 1789039214.0752642,
     "ast_hash": "f61cdf6757542ea7afb6f1835cce671c",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.1.md": {
-    "mtime": 1785149898.7150114,
-    "ast_hash": "8aed2ed6a08db50089a157a8a6574919",
+    "mtime": 1789039746.2985435,
+    "ast_hash": "abd8faedf4ce50aeae84d4343df38e18",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.0.0.md": {
-    "mtime": 1785227948.865903,
+    "mtime": 1789039214.0283186,
     "ast_hash": "9b856ff1e2cc31c0b6eaa861d0d73f6b",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.0.1.md": {
-    "mtime": 1785972327.5397348,
+    "mtime": 1789039214.0530622,
     "ast_hash": "11725adc0e1460dbe54929fa4267eb9a",
     "semantic_hash": ""
   },
   "src/main/resources/assets/better_connections/icon.png": {
-    "mtime": 1785148930.7260091,
+    "mtime": 1789039213.9701695,
     "ast_hash": "a6dbd78777061c798fbcbafafad6599a",
     "semantic_hash": ""
   },
   "src/main/resources/better_connections.png": {
-    "mtime": 1785148930.6800966,
+    "mtime": 1789039213.9787538,
     "ast_hash": "a6dbd78777061c798fbcbafafad6599a",
     "semantic_hash": ""
   },
   "CHANGELOG_NEW.md": {
-    "mtime": 1787043965.2508507,
+    "mtime": 1789039219.823006,
     "ast_hash": "b5259eb1c3c05289893f2af17d718662",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.0.2.md": {
-    "mtime": 1786569058.452757,
+    "mtime": 1789039214.0007238,
     "ast_hash": "eee72b7836f6947225d61c544540f5fe",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.0.3.md": {
-    "mtime": 1787060013.41637,
+    "mtime": 1789039214.0403442,
     "ast_hash": "7d7fefe59d9598447e9eeba260bfdd7f",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/1.1.0.md": {
-    "mtime": 1787179045.0099816,
+    "mtime": 1789039214.0647726,
     "ast_hash": "f04a28afe1c6daf1f2b10e2c385e7b48",
+    "semantic_hash": ""
+  },
+  "docs/WORKFLOW_BETTER_CONNECTIONS_1-21-1.md": {
+    "mtime": 1789039704.889932,
+    "ast_hash": "eecd323d5a266727ed68247a76c4b252",
     "semantic_hash": ""
   }
 }
