@@ -1,5 +1,17 @@
 # Changelog — Better Connections (NeoForge)
 
+## [Unreleased]
+
+### Change
+
+- **Licencia**: el mod pasa de `All Rights Reserved` a **AGPL-3.0-only**, para cumplir con la
+  licencia del original BetterWalls (declarada AGPL-3.0 en sus páginas de Modrinth y CurseForge).
+  Añadidos `LICENSE` (texto completo AGPL-3.0) y `NOTICE` (atribución a Lemonnik6484 / JX_Snack,
+  origen del port y discrepancia conocida con el fichero `LICENSE` de su GitHub). El JAR ahora
+  incluye `LICENSE` y `NOTICE` en `META-INF/`.
+- Pendiente manual: alinear el campo de licencia del proyecto en CurseForge a AGPLv3.
+
+
 ## [1.1.0] - 2026-08-19
 
 ### Change

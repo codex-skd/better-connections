@@ -21,4 +21,12 @@ Connects Fences, Walls, and Iron Bars together seamlessly.
 
 ## Attribution
 
-This mod is a port of [BetterWalls](https://modrinth.com/mod/betterwalls) by Lemonnik6484 and JX_Snack.
+This mod is a port of [BetterWalls](https://modrinth.com/mod/betterwalls) by Lemonnik6484 and
+JX_Snack ([source](https://github.com/Lemon4ik6484/BetterWalls)), extended with additional
+block/tag compatibility.
+
+## License
+
+Better Connections is licensed under **AGPL-3.0-only**, matching the upstream BetterWalls license
+declared on its Modrinth and CurseForge pages. See [`LICENSE`](LICENSE) for the full text and
+[`NOTICE`](NOTICE) for attribution details and a known upstream licensing discrepancy.
