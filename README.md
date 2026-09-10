@@ -10,8 +10,8 @@ Connects Fences, Walls, and Iron Bars together seamlessly.
 
 ## Requirements
 
-- Minecraft 26.2
-- NeoForge 26.2.0.32-beta+
+- Minecraft 1.21.1
+- NeoForge 21.1.249+
 
 ## Installation
 

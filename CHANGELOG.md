@@ -1,5 +1,26 @@
 # Changelog — Better Connections (NeoForge)
 
+## [0.0.0-beta.1] - 2026-09-10
+
+### Feature
+
+- **Port a Minecraft 1.21.1 / NeoForge 21.1.249**: nueva rama `minecraft/1.21.1/neoforge-21.1.249/production`, partiendo de la 26.2 (`v1.1.0`).
+- Misma funcionalidad que las versiones 26.1.2 / 26.2: las vallas, los muros y los barrotes de hierro se conectan entre sí y con carteles de pared / puertas de valla.
+- Mixins sin cambios de lógica: `FenceBlockMixin`, `PaneBlockMixin`, `WallBlockMixin`.
+
+### Change
+
+- **Andamiaje de build para 1.21.1**: `gradle.properties` (`minecraft_version=1.21.1`, `neo_version=21.1.249`, `loader_version_range=[4,)`, mappings de Parchment `1.21.1 / 2024.11.17`); `build.gradle` toolchain de Java 21 y bloque `parchment`.
+- **Plantilla `neoforge.mods.toml`**: añadidas las claves `modLoader="javafml"` y `loaderVersion` que FML 1.21.1 exige (la plantilla de 26.2 las omitía).
+- **`better_connections.mixins.json`**: sin clave `refmap` — NeoForge 1.21.1 aplica los mixins con nombres oficiales sin refmap.
+- **Documentación**: `docs/WORKFLOW_BETTER_CONNECTIONS_26-2.md` → `docs/WORKFLOW_BETTER_CONNECTIONS_1-21-1.md`; README y `project_description` con los nuevos requisitos.
+- **Nombre de JAR**: `better_connections-1.21.1-neoforge-21.1.249-0.0.0-beta.1.jar`.
+
+### Verificación
+
+- `./gradlew.bat build` correcto.
+- `./gradlew.bat runServer` arranca hasta `Done!` sin errores; log confirma los 3 mixins aplicados sobre `FenceBlock`, `IronBarsBlock` y `WallBlock`. Sin verificación visual in-game.
+
 ## [1.1.0] - 2026-08-19
 
 ### Change

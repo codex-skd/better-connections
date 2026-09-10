@@ -12,8 +12,8 @@
 | Mod ID (`gradle.properties`) | `better_connections` |
 | Clase principal | `BetterConnections` |
 | Display name (Title Case) | `Better Connections` |
-| Versiones de Minecraft | `26.1.2 y 26.2` |
-| Rama | `minecraft/26.2/neoforge-26.2.0.57/production` |
+| Versiones de Minecraft | `1.21.1`, `26.1.2` y `26.2` |
+| Rama | `minecraft/1.21.1/neoforge-21.1.249/production` |
 
 ## Convenciones de nomenclatura
 
@@ -54,7 +54,7 @@ Cada subida a CurseForge crea tag: beta `<mc>-neoforge-beta.X` · release `<mc>-
 **1. Desarrollo**
 
 ```bash
-git checkout minecraft/26.2/neoforge-26.2.0.57/production
+git checkout minecraft/1.21.1/neoforge-21.1.249/production
 ./gradlew.bat build
 git add -A
 git commit -m "feat: <descripción>
